@@ -38,6 +38,10 @@
         left:-9999px;
     }
 
+    .r-hr hr{
+        border-style: hidden;
+    }
+
     @media(max-width:767px){
         .r-img{
             /* Remove styling from the div */
@@ -49,6 +53,9 @@
             /* Bring smaller image back into view */
             position:static;
             max-width:100%;
+        }
+        .r-hr hr{
+            border-style: solid;
         }
     }
 
